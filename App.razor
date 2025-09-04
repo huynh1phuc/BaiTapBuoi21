@@ -3,7 +3,6 @@
 <Router AppAssembly="@typeof(App).Assembly">
     <Found Context="routeData">
         <RouteView RouteData="@routeData" DefaultLayout="@typeof(Shared.MainLayout)" />
-        @* Nếu muốn focus heading khi điều hướng *@
         <FocusOnNavigate RouteData="@routeData" Selector="h1" />
     </Found>
 
@@ -14,3 +13,4 @@
         </LayoutView>
     </NotFound>
 </Router>
+
