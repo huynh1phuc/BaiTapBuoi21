@@ -1,0 +1,32 @@
+﻿@page "/"
+@namespace BaiTapBuoi21.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BaiTapBuoi21</title>
+
+    <!-- Important for correct routing & static file paths -->
+    <base href="~/" />
+
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <app>
+        <!-- Server prerender is fine for Blazor Server -->
+        <component type="typeof(App)" render-mode="ServerPrerendered" />
+    </app>
+
+    <div id="blazor-error-ui" class="alert alert-danger" style="display:none">
+        Đã xảy ra lỗi. <a href="" class="alert-link">Tải lại</a>
+        <a class="dismiss">x</a>
+    </div>
+
+    <!-- Blazor Server script -->
+    <script src="_framework/blazor.server.js"></script>
+</body>
+</html>

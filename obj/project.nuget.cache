@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "d5/dzpar2BA=",
+  "success": true,
+  "projectFilePath": "/Users/phxc1/Documents/Cybersoft/NET04/Buoi_21/BaiTapBuoi21/BaiTapBuoi21/BaiTapBuoi21.csproj",
+  "expectedPackageFiles": [
+    "/Users/phxc1/.nuget/packages/microsoft.netcore.app.ref/8.0.17/microsoft.netcore.app.ref.8.0.17.nupkg.sha512",
+    "/Users/phxc1/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.17/microsoft.aspnetcore.app.ref.8.0.17.nupkg.sha512",
+    "/Users/phxc1/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.17/microsoft.netcore.app.host.osx-arm64.8.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

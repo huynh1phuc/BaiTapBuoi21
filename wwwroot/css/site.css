@@ -1,0 +1,182 @@
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.job-item {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px dashed #ddd;
+}
+
+.job-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.company {
+    font-weight: normal;
+    color: #d35400;
+    margin-left: 8px;
+}
+
+.job-date {
+    float: right;
+    font-style: italic;
+    color: #d35400;
+    font-weight: 600;
+}
+/* --- ABOUT --- */
+.about-hero { 
+    padding-right: clamp(0px, 4vw, 40px);
+}
+
+.about-heading { 
+    margin-bottom: .75rem;
+}
+
+.display-name {
+    margin: 0 0 .25rem 0;
+    font-size: clamp(36px, 6vw, 64px);
+    line-height: 1;
+    letter-spacing: 1px;
+    font-weight: 800;
+    color: #2c3e50; 
+}
+
+.display-name .first { color: #2c3e50; }
+.display-name .last  { color: #d35400; } 
+.display-name .spark { 
+    color: #d35400; 
+    font-size: .9em; 
+    margin-left: .15em; 
+}
+
+.subline {
+    margin: 0;
+    color: #687079;          
+    font-weight: 700;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+    font-size: clamp(12px, 1.6vw, 14px);
+}
+
+.subline .email {
+    color: #d35400;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+.subline .email:hover { border-color: #d35400; }
+
+.intro {
+    margin-top: 1.25rem;
+    max-width: 900px;
+    color: #606b75;
+    font-size: clamp(14px, 2vw, 16px);
+}
+
+.socials {
+    list-style: none;
+    padding: 0;
+    margin: 1.25rem 0 0 0;
+    display: flex;
+    gap: 12px;
+}
+.socials a {
+    width: 42px; height: 42px;
+    display: grid; place-items: center;
+    border-radius: 50%;
+    background: #e9ecef;
+    color: #424b55;
+    font-size: 18px;
+    transition: transform .15s ease, background .15s ease, color .15s ease;
+}
+.socials a:hover {
+    transform: translateY(-2px);
+    background: #d35400;
+    color: #fff;
+}
+
+.nav-link.active { font-weight: 700; border-left: 4px solid #ffcc00; }
+
+.sidebar { background-color: #a84d2d; color: #fff; }
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.edu-item {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-left: 4px solid #28a745;
+    padding-left: 1rem;
+    background: #f9f9f9;
+    border-radius: 6px;
+}
+
+.edu-degree {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: .25rem;
+}
+
+.edu-school {
+    display: block;
+    font-weight: 600;
+    color: #d35400;
+}
+
+.edu-date {
+    display: block;
+    font-style: italic;
+    font-size: .9rem;
+    color: #555;
+    margin-bottom: .5rem;
+}
+/* INTERESTS */
+.interest-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+.interest-list li {
+    margin: .5rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.interest-list i {
+    margin-right: .6rem;
+}
+
+/* AWARDS */
+.awards-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.awards-list li {
+    margin-bottom: 1rem;
+    padding: .75rem;
+    border-left: 4px solid #ffc107;
+    background: #fdfdfd;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
+
+.awards-list i {
+    font-size: 1.2rem;
+}
